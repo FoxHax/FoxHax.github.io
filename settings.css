@@ -1,0 +1,115 @@
+/* Style stuff */
+
+body {
+	text-align: center;
+	color: black;
+	font-family: "Verlag Bold";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	width: auto;
+	height: 100px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center; 
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	cursor: default;
+	transition: background 2s;
+	animation: fadein 3s;
+}
+
+div.wordClock {
+	font-family: "Verlag Black";
+	font-size: 54px;
+}
+
+div.digitalClock {
+	font-family: "Verlag Bold";
+	font-size: 34px;
+	line-height: 50%;
+	visibility: visible;
+}
+
+div.ribbon {
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+div.ribbon img {
+	animation: widen 2s;
+}
+
+div.footer {
+	position: fixed;
+	width: 100%;
+	font-size: 16px;
+	bottom: 0px;
+	color: white;
+	padding-bottom: 22px;
+	padding-top: 50px;
+	opacity: 0.05;
+	transition:.5s;
+}
+
+div.footer:hover {
+	opacity: 1;
+	transition:.5s;
+}
+
+a{
+	text-decoration: none;
+	color: #FFFFFF;
+	transition:.3s;
+}
+
+a:hover {
+	transition:.3s;
+	color: #949494;
+}
+
+@keyframes fadein {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+@keyframes widen {
+	from { width: 0px; height: 98px; }
+	to { width: 880px; height: 98px; }
+}
+
+@font-face {
+	font-family: "Verlag Book";
+	src: url("vlbook.otf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Verlag Bold";
+	src: url("vlbold.otf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Verlag Black";
+	src: url("vlblack.otf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Verlag Black Condensed";
+	src: url("vlblackcond.otf");
+	font-weight: normal;
+	font-style: normal;
+}
