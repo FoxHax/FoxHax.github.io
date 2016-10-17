@@ -1,2 +1,2 @@
-# FoxHax.github.io
-My website
+# foxhax.github.io
+A Firewatch-themed vernacular clock.
