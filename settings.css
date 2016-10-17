@@ -14,7 +14,7 @@ body {
 	height: 100px;
 	background-size: cover;
 	background-attachment: fixed;
-	background-position: center; 
+	background-position: center;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-webkit-user-drag: none;
@@ -35,16 +35,12 @@ div.digitalClock {
 	visibility: visible;
 }
 
-div.ribbon {
+.ribbon {
 	z-index: -1;
 	position: absolute;
 	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-}
-
-div.ribbon img {
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
 	animation: widen 2s;
 }
 
@@ -65,7 +61,7 @@ div.footer:hover {
 	transition:.5s;
 }
 
-a{
+a {
 	text-decoration: none;
 	color: #FFFFFF;
 	transition:.3s;
@@ -82,8 +78,8 @@ a:hover {
 }
 
 @keyframes widen {
-	from { width: 0px; height: 98px; }
-	to { width: 880px; height: 98px; }
+	from { width: 0px; }
+	to { width: 880px; }
 }
 
 @font-face {
