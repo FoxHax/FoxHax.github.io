@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head>
-<!-- HTML, CSS and JS by Rory Madden -->
-<!-- Wallpapers and the names 'Firewatch' and 'Campo Santo' are copyright Campo Santo -->
-<title>Firewatch Clock</title>
-<link rel="stylesheet" href="settings.css"/>
-<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-<script type="text/javascript" src="clock.js"></script>
-<link rel='shortcut icon' type='image/png' href='icon.png' />
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-</head>
-<body>
-<div class="wordClock" id="wordClock">
-</div>
-<div class="digitalClock" id="digitalClock">
-</div>
-<div class="ribbon">
-<img src="Ribbon.png">
-</div>
-<div class="footer">
-<a href="http://www.firewatchgame.com" target="_blank">Firewatch</a> © <a href="http://www.camposanto.com" target="_blank">Campo Santo</a>
-</div>
-</body>
+    <head>
+        <!-- HTML, CSS and JS by Rory Madden -->
+        <!-- Wallpapers and the names 'Firewatch' and 'Campo Santo' are copyright Campo Santo -->
+        <title>Firewatch Clock</title>
+        <link rel="stylesheet" href="settings.css"/>
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <link rel="shortcut icon" type="image/ico" href="fireclock.ico" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div class="wordClock" id="wordClock"></div>
+        <div class="digitalClock" id="digitalClock"></div>
+        <svg class="ribbon" width="880px" height="98px" viewBox="0 0 880 98" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <polygon id="Rectangle" stroke="none" fill="#FD900C" fill-rule="evenodd" points="0 0 880 0 854 49 880 98 0 98 26 49"></polygon>
+        </svg>
+        <div class="footer">
+            <a href="http://www.firewatchgame.com" target="_blank">
+                Firewatch
+            </a>
+            <span>©</span>
+            <a href="http://www.camposanto.com" target="_blank">
+                Campo Santo
+            </a>
+        </div>
+        <script type="text/javascript" src="clock.js"></script>
+    </body>
 </html>
