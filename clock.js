@@ -1,5 +1,3 @@
-// This file and the vernacular time style were made by Rory Madden
-
 (function () {
     var now = new Date();
     var h = now.getHours();
