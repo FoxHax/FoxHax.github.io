@@ -68,6 +68,7 @@
         else if (currentHour === 10) { return 'TEN' }
         else if (currentHour === 11) { return 'ELEVEN' }
         else if (currentHour === 12) { return 'TWELVE' }
+        else if (currentHour === 13) { return 'ONE' }
     }
 
     function getTimePhrase(wordHour, currentMinute) {
